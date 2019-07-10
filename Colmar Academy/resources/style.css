@@ -1,0 +1,412 @@
+
+
+html {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Georgia";
+  font-size: 2.8rem;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: Phasellus;
+  font-size: 1.5rem;
+  font-weight: bold;
+    color: rgb(70,20,100);
+}
+
+h3, p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color:rgb(50,50,50);
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-size: 1.4rem;
+  color: rgb(70,20,100);
+}
+
+a:hover {
+  border-top: solid 1px skyblue;
+  border-bottom: solid 1px skyblue;
+}
+
+.container {
+  height: 100%;
+  max-width: 960px;
+}
+
+.image-body-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: flex-start;
+  padding-left: 2rem;
+}
+
+.image {
+  height:100%;
+  width: 60%;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+.body {
+  width: 40%;
+  height: 100%;
+  padding-left: 1rem;
+
+}
+.body h1{
+  padding-top: 3.5rem;
+}
+.image-container {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.info-bite .image:hover, .course .image:hover, .thesis-example .image:hover {
+    opacity: 0.7;
+  }
+
+  .info-bite:hover, .course:hover, .thesis-example:hover {
+    background-color: lightgrey;
+  }
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 24px;
+  font-size: 2rem;
+}
+
+.academy {
+  color: skyblue;
+  font-weight: bold;
+}
+
+nav a {
+padding-left: 12px;
+padding-right: 12px;
+}
+
+.mobile-header {
+  display: none;
+}
+
+
+.main-content {
+  position: relative;
+  top: 4rem;
+}
+
+
+.banner {
+  background-color: rgb(224,224,224);
+}
+
+.banner .image-body-container {
+  align-items: center;
+  padding-bottom: 32px;
+}
+
+.banner .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  padding-top: 32px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: white;
+  background-color: rgb(100,100,100);
+  padding: 8px 0 8px 0;
+  margin: 24px 0 24px 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  background-color:skyblue;
+}
+
+.button:active {
+  background-color:grey;
+  box-shadow: 0 5px #666;
+}
+
+.banner h1 {
+  padding-bottom: 1.5rem;
+}
+
+.info .image {
+  margin-bottom: 2rem;
+}
+
+.info .text-content h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info .text-content h3 {
+  margin-top: 2rem;
+}
+
+.info-bite {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.info-bite .visual {
+  width: 35%;
+  margin-right: 1rem;
+  min-width: 90px;
+}
+
+.info-bite .mobile-image {
+  display: none;
+}
+
+.info-bite .content {
+  width: 65%;
+}
+
+.info-bite h3 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.courses {
+  background-color: rgb(232,232,232);
+}
+.courses h1, .theses h1 {
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4.5rem 2rem 4.5rem;
+}
+
+.course {
+  width: 30%;
+  background-color: white;
+  margin: 0 1rem 2rem 1rem;
+}
+.course h1{
+  color:skyblue;
+}
+.course .text-content {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.course h2, .course h3, .course p {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  color: rgb(70,20,100);
+}
+
+.mobile-courses {
+  display: none;
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.theses .sixty-forty-container {
+  align-items: flex-start;
+}
+
+.theses .forty {
+  margin-top: 2rem;
+}
+
+.theses .text-content h2 {
+  padding-top: 1.5rem;
+  padding-bottom:0.5rem;
+}
+
+.thesis-example {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.thesis-example .visual {
+  height: auto;
+  width: 35%;
+  min-width: 90px;
+}
+
+.thesis-example .text-content {
+  width: 65%;
+  margin-left: 1rem;
+  padding-right: 2rem;
+}
+
+ footer {
+   color:skyblue;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  padding-left: 2rem;
+}
+
+footer h4, footer a {
+  font-size: 1.2rem;
+}
+footer a{
+  padding-right: 15px;
+}
+/* mobile styles this was the width things broke but maybe it needs more rules for 470px-804px */
+@media only screen and (max-width: 804px) {
+
+h1, h2 {
+  font-weight: 500;
+}
+.sixty-forty-container {
+  flex-direction: column;
+  padding: 0px;
+}
+
+.sixty, .forty {
+  width: 100%;
+  padding: 0px;
+}
+
+.logo, nav, .info .sixty {
+    display: none;
+  }
+
+.mobile-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4rem;
+
+  }
+
+  .mobile-header img {
+    height: 2rem;
+  }
+
+  .banner .text-content {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+.button {
+  margin: 1rem;
+  width: 100%;
+  margin-left: 0;
+}
+
+.info-bite {
+    flex-direction: column;
+  }
+
+.info-bite .image {
+  display: none;
+}
+
+.info-bite .mobile-image {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+}
+
+.info-bite .content {
+  width: 100%;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info-bite .content h3 {
+  font-size: 1.2rem;
+}
+
+/*mobile course section */
+.courses-container {
+  display: none;
+}
+
+.mobile-courses  {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.mobile-courses h2 {
+  padding: 1rem 1rem 1.5rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: darkgrey;
+  font-size: 1.8rem;
+}
+
+.mobile-courses h2:hover {
+  background-color: lightgrey;
+}
+
+.mobile-courses h2:active {
+  background-color: lightgrey;
+  box-shadow: 0 5px #666;
+}
+/*mobile-thesis section*/
+.theses h1 {
+  margin-top: 2rem;
+}
+.video-container .text-content, .theses .forty {
+  display: none;
+}
+
+.video-container {
+  margin-bottom: 1.5rem;
+}
+footer h4 {
+  font-size: 1rem;
+}
+
+}
